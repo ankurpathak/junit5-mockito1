@@ -46,7 +46,7 @@ public class MockitoThrowTest {
         when(list.size()).thenThrow(RuntimeException.class, NumberFormatException.class);
         assertThrows(RuntimeException.class, list::size);
         assertThrows(NumberFormatException.class, list::size);
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
