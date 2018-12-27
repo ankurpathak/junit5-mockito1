@@ -1,7 +1,7 @@
 #Travis Test
+
 [![Build Status](https://travis-ci.org/ankurpathak/junit5-mockito1.svg?branch=master)](https://travis-ci.org/ankurpathak/junit5-mockito1)
 [![](https://img.shields.io/github/license/ankurpathak/junit5-mockito1.svg)](https://github.com/ankurpathak/junit5-mockito1/blob/master/LICENCE)
-https://img.shields.io/github/license/:user/:repo.svg
 1. Add this line to build.gradle of hamcrest 
 ```
         apply plugin: 'maven'
