@@ -1,3 +1,18 @@
+os: linux
+
+dist: xenial
+
+sudo: false
+
 language: java
+
 jdk:
   oraclejdk11
+
+cache:
+  directories:
+    - $HOME/.m2
+
+install: true
+
+script: mvn clean install
