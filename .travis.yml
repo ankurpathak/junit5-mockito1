@@ -13,4 +13,4 @@ cache:
     -
 install: true
 
-script: ./mvn clean install
+script: mvn clean install
