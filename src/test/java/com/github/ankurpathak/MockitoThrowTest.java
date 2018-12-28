@@ -1,4 +1,4 @@
-package com.ankurpathak.github;
+package com.github.ankurpathak;
 
 
 import org.junit.jupiter.api.Test;

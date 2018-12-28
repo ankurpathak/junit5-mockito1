@@ -1,4 +1,4 @@
-package com.ankurpathak.github;
+package com.github.ankurpathak;
 
 public interface Demo {
     Object[] getObjectArray();
