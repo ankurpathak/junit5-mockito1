@@ -15,7 +15,7 @@ cache:
 
 install: true
 
-script: mvn clean install
+script: echo $TRAVIS_BRANCH
 
 deploy:
   provider: releases
