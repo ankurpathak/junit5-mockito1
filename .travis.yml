@@ -24,5 +24,5 @@ deploy:
   file: target/*.zip
   skip_cleanup: true
   on:
+    condition: master = master
     tags: true
-    condition: branch == master
