@@ -15,7 +15,7 @@ cache:
 
 install: true
 
-script: echo $TRAVIS_BRANCH
+script: expr $TRAVIS_BRANCH = master
 
 deploy:
   provider: releases
@@ -24,6 +24,5 @@ deploy:
   file: target/*.zip
   skip_cleanup: true
   on:
-    branch: master
     tags: true
     condition: $TRAVIS_BRANCH = master
